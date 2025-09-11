@@ -1,11 +1,11 @@
 #!/bin/bash
 
-DIR="/home/smith/backup_cartoes/cartoes"
+DIR="/home/smith/work/backup_cartoes/cartoes/"
 ID_CARTAO=$1
 
 # Se cartão for menor que 13k, é provavelmente um ID inválido
 if [ $ID_CARTAO -lt 13000 ]; then
-  echo -e "Número de cartão muito pequeno... "
+  echo -e "Número de cartão deve ser maior que 13k"
   return 1
 fi
 

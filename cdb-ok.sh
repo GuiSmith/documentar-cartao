@@ -35,8 +35,7 @@ case "$CUR/" in
         ;;
 esac
 
-echo "OK: "
-echo "Executando git..."
+echo "OK: Atualizando dados"
 
 # 3 - Git add/commit/push
 git add .

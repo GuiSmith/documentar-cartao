@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR="/home/smith/work/backup-cartoes/cartoes/"
+DIR="/home/ixcsoft/backup-cartoes/cartoes/"
 ID_CARTAO=$1
 
 # Se cartão for menor que 13k, é provavelmente um ID inválido
